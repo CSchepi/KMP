@@ -1,0 +1,119 @@
+body{
+    font-family: "Roboto";
+}
+
+.Headline{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255,255,255,1), rgba(255,255,255,0.92), rgba(255,255,255,0.8), rgba(255,255,255,0.45), rgba(255,255,255,0));
+    height: 15%;
+    left: 0%;
+    z-index: 100;
+}
+.logo{
+    position: absolute;
+    left: 20%;
+}
+
+.Content{
+    position: absolute;
+    height: 3000px;
+    left: 0px;
+    width: 100%;
+}
+.Topic{
+
+    font-family: "Fugaz One";
+    height: 200px;
+    background: #f1c610;
+    left: 0px;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+    z-index: 2;
+}
+.Caption{
+    position: relative;
+    top: 60px;
+}
+.Caption:hover{
+    font-size: 65px;
+}
+.Zwischenbild{
+    overflow: hidden;
+    background-position: 0px 70%;
+    background-size: 100%;
+    height: 500px;
+    z-index: -1;
+}
+.platzhalter{
+    height: 100px;
+}
+.platzhaltersmall{
+    height: 50px;
+}
+
+#zb4{
+    background-image: url("https://i.pinimg.com/originals/d6/da/3f/d6da3f32affc71a4fe91c8117fb825f8.jpg");
+}
+#zb2{
+    background-image: url("https://www.vollwertigleben.at/wp-content/uploads/2019/07/evi-radauscher-325004-unsplash-1160x774.jpg");
+    background-position: 0px 93.3333333%;
+}
+#zb5{
+    background-image: url("https://i.auto-bild.de/ir_img/8/1/6/5/0/7/Steiger-535-729x486-8a40010d43ac29b3.jpg");
+}
+#zb1{
+    background-image: url("https://www.agrarheute.com/media/styles/ah_bildergalerie_standalone_5x4/public/2021-03/traktor_acker_AdobeStock_308471503.jpg");
+}
+#zb3{
+    background-image: url("https://st3.depositphotos.com/1111257/17645/i/1600/depositphotos_176450096-stock-photo-rows-of-young-potato-plants.jpg");
+}
+
+.boxleft, .boxright{
+    border: rgba(255,255,255,0);
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 50%;
+    background: rgba(255,255,255,0.5);
+    height: 330px;
+    position: relative;
+    left: 20%;
+    margin: 20px;
+}
+.boxright{
+    text-align: right;
+    left: 30%
+}
+.boxright img{
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    border-radius: 10px;
+    top: 0px;
+}
+.boxleft img{
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    border-radius: 10px;
+    top: 0px;
+}
+.Trennlinie{
+    margin: 45px;
+    height: 10px;
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+.bwrapper{
+text-align: center;
+}
+.Seitenüberschrift{
+    text-align:center;
+    font-family: "Roboto";
+}
+
+
