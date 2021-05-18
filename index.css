@@ -101,6 +101,9 @@ body{
     border-radius: 10px;
     top: 0px;
 }
+.boxleft p, .boxright p{
+    width: 100px;
+}
 .Trennlinie{
     margin: 45px;
     height: 10px;
@@ -115,5 +118,10 @@ text-align: center;
     text-align:center;
     font-family: "Roboto";
 }
-
+.mehr{
+    color: mediumblue;
+}
+.mehrc{
+    display: none;
+}
 

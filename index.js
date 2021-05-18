@@ -12,3 +12,17 @@ window.addEventListener('scroll', () => {
     document.getElementById("zb5").style.backgroundPosition =factor5;
     console.log(factor2);
 });
+
+function ShowMore(index){
+    var button = "mehr"+index;
+    var text = "mehrc"+index;
+    if(document.getElementById(button).innerText == "mehr")
+    {
+        document.getElementById(button).innerText = "weniger";
+        document.getElementById(text).style.display = "inline";
+    }
+    else {
+        document.getElementById(button).innerText = "mehr";
+        document.getElementById(text).style.display = "none";
+    }
+}
