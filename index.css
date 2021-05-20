@@ -55,20 +55,20 @@ body{
 }
 
 #zb4{
-    background-image: url("https://i.pinimg.com/originals/d6/da/3f/d6da3f32affc71a4fe91c8117fb825f8.jpg");
+    background-image: url("https://i.imgur.com/gQJZZrU.png");
 }
 #zb2{
-    background-image: url("https://www.vollwertigleben.at/wp-content/uploads/2019/07/evi-radauscher-325004-unsplash-1160x774.jpg");
+    background-image: url("https://i.imgur.com/ngNNXeb.png");
     background-position: 0px 93.3333333%;
 }
 #zb5{
-    background-image: url("https://i.auto-bild.de/ir_img/8/1/6/5/0/7/Steiger-535-729x486-8a40010d43ac29b3.jpg");
+    background-image: url("https://i.imgur.com/kB2Tpjn.png");
 }
 #zb1{
-    background-image: url("https://www.agrarheute.com/media/styles/ah_bildergalerie_standalone_5x4/public/2021-03/traktor_acker_AdobeStock_308471503.jpg");
+    background-image: url("https://i.imgur.com/kqRF0XB.png");
 }
 #zb3{
-    background-image: url("https://st3.depositphotos.com/1111257/17645/i/1600/depositphotos_176450096-stock-photo-rows-of-young-potato-plants.jpg");
+    background-image: url("https://i.imgur.com/fxHTpKW.png");
 }
 
 .boxleft, .boxright{
@@ -78,7 +78,7 @@ body{
     border-radius: 10px;
     width: 50%;
     background: rgba(255,255,255,0.5);
-    height: 330px;
+    height: 400px;
     position: relative;
     left: 20%;
     margin: 20px;
@@ -88,21 +88,42 @@ body{
     left: 30%
 }
 .boxright img{
-    height: 100%;
+    max-height: 100%;
+    max-width: 45%;
     position: absolute;
     left: 0px;
     border-radius: 10px;
     top: 0px;
 }
 .boxleft img{
-    height: 100%;
+    max-height: 100%;
+    max-width: 45%;
     position: absolute;
     right: 0px;
     border-radius: 10px;
     top: 0px;
 }
-.boxleft p, .boxright p{
-    width: 100px;
+
+.boxright .mehrc{
+    position: absolute;
+    width: 50%;
+    right: 0px;
+}
+.boxright p.shortie {
+    font-style: italic;
+    position: relative;
+    width: 55%;
+    left: 45%;
+}
+.boxleft p.shortie {
+    font-style: italic;
+    position: relative;
+    width: 55%;
+}
+.boxleft .mehrc{
+    position: absolute;
+    width: 50%;
+    left: 0px;
 }
 .Trennlinie{
     margin: 45px;
