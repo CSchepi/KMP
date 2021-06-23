@@ -70,6 +70,12 @@ body{
 #zb3{
     background-image: url("https://i.imgur.com/fxHTpKW.png");
 }
+.mehr{
+    color: mediumblue;
+}
+.mehrc{
+    display: none;
+}
 
 .boxleft, .boxright{
     border: rgba(255,255,255,0);
@@ -78,8 +84,8 @@ body{
     border-radius: 10px;
     width: 50%;
     background: rgba(255,255,255,0.5);
-    height: 400px;
     position: relative;
+    height: 200px;
     left: 20%;
     margin: 20px;
 }
@@ -93,7 +99,8 @@ body{
     position: absolute;
     left: 0px;
     border-radius: 10px;
-    top: 0px;
+    top:0px;
+    transition: all 0.4s ease-in-out;
 }
 .boxleft img{
     max-height: 100%;
@@ -102,6 +109,16 @@ body{
     right: 0px;
     border-radius: 10px;
     top: 0px;
+    transition: all 0.4s ease-in-out;
+}
+
+.boxleft img:hover{
+    transform: scale(1.7);
+
+}
+
+.boxright img:hover{
+    transform: scale(1.7);
 }
 
 .boxright .mehrc{
@@ -139,10 +156,8 @@ text-align: center;
     text-align:center;
     font-family: "Roboto";
 }
-.mehr{
-    color: mediumblue;
-}
-.mehrc{
+
+.Animation{
+    transform: scale(1.7);
     display: none;
 }
-
