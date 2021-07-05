@@ -93,6 +93,11 @@ body{
     text-align: right;
     left: 30%
 }
+
+.mehrc{
+    text-align: justify;
+}
+
 .boxright img{
     max-height: 100%;
     max-width: 45%;
@@ -160,4 +165,11 @@ text-align: center;
 .Animation{
     transform: scale(1.7);
     display: none;
+}
+
+#waterimg{
+    position: absolute;
+    top: 65px;
+    left: 50px;
+    transform: scale(1.3);
 }

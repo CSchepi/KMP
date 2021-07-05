@@ -187,3 +187,194 @@ if(img3 != null && anm3 != null) {
     }, false)
 }
 
+//4
+var img4 = document.getElementById("img4");
+var anm4 = document.getElementById("Animation4")
+var S4 = new Audio("Animations/A4/KMP4_1.mp3");
+//Hover Animation controll
+if(img4 != null && anm4 != null) {
+    img4.addEventListener("mouseover", function (event) {
+        hovers = true;
+        console.log("Start Animation");
+        setTimeout(() => {
+            if (hovers) {
+                var giflink = anm4.getAttribute("src");
+                var backgroundimg = img4.getAttribute("src")
+                console.log(giflink);
+                S4.loop = true;
+                anm4.style.display = "inline";
+                anm4.setAttribute("src", backgroundimg);
+                setTimeout(() => {
+                    anm4.setAttribute("src", giflink);
+                    S4.currentTime = 0;
+                    S4.play();
+                }, 50)
+
+            }
+        }, 450)
+    }, false)
+    anm4.addEventListener("mouseleave", function (event) {
+        hovers = false;
+        anm4.style.display = "none";
+        S4.pause();
+    }, false)
+    img4.addEventListener("mouseleave", function (event) {
+        if (anm4.style.display == "none") {
+            hovers = false;
+        }
+    }, false)
+}
+
+//5
+var img5 = document.getElementById("img5");
+var anm5 = document.getElementById("Animation5")
+var S5 = new Audio("Animations/A5/KMP5.mp3");
+//Hover Animation controll
+if(img5 != null && anm5 != null) {
+    img5.addEventListener("mouseover", function (event) {
+        hovers = true;
+        console.log("Start Animation");
+        setTimeout(() => {
+            if (hovers) {
+                var giflink = anm5.getAttribute("src");
+                var backgroundimg = img5.getAttribute("src")
+                console.log(giflink);
+                S5.loop = true;
+                anm5.style.display = "inline";
+                anm5.setAttribute("src", backgroundimg);
+                setTimeout(() => {
+                    anm5.setAttribute("src", giflink);
+                    S5.currentTime = 0;
+                    S5.play();
+                }, 50)
+
+            }
+        }, 450)
+    }, false)
+    anm5.addEventListener("mouseleave", function (event) {
+        hovers = false;
+        anm5.style.display = "none";
+        S5.pause();
+    }, false)
+    img5.addEventListener("mouseleave", function (event) {
+        if (anm5.style.display == "none") {
+            hovers = false;
+        }
+    }, false)
+}
+
+//6
+var img6 = document.getElementById("img6");
+var anm6 = document.getElementById("Animation6")
+var S6 = new Audio("Animations/A6/KMP6.mp3");
+//Hover Animation controll
+if(img6 != null && anm6 != null) {
+    img6.addEventListener("mouseover", function (event) {
+        hovers = true;
+        console.log("Start Animation");
+        setTimeout(() => {
+            if (hovers) {
+                var giflink = anm6.getAttribute("src");
+                var backgroundimg = img6.getAttribute("src")
+                console.log(giflink);
+                S6.loop = true;
+                anm6.style.display = "inline";
+                anm6.setAttribute("src", backgroundimg);
+                setTimeout(() => {
+                    anm6.setAttribute("src", giflink);
+                    S6.currentTime = 0;
+                    S6.play();
+                }, 50)
+
+            }
+        }, 450)
+    }, false)
+    anm6.addEventListener("mouseleave", function (event) {
+        hovers = false;
+        anm6.style.display = "none";
+        S6.pause();
+    }, false)
+    img6.addEventListener("mouseleave", function (event) {
+        if (anm6.style.display == "none") {
+            hovers = false;
+        }
+    }, false)
+}
+
+//7
+var img7 = document.getElementById("img7");
+var anm7 = document.getElementById("Animation7")
+var S7 = new Audio("Animations/A7/KMP7.mp3");
+//Hover Animation controll
+if(img7 != null && anm7 != null) {
+    img7.addEventListener("mouseover", function (event) {
+        hovers = true;
+        console.log("Start Animation");
+        setTimeout(() => {
+            if (hovers) {
+                var giflink = anm7.getAttribute("src");
+                var backgroundimg = img7.getAttribute("src")
+                console.log(giflink);
+                S7.loop = true;
+                anm7.style.display = "inline";
+                anm7.setAttribute("src", backgroundimg);
+                setTimeout(() => {
+                    anm7.setAttribute("src", giflink);
+                    S7.currentTime = 0;
+                    S7.play();
+                }, 50)
+
+            }
+        }, 450)
+    }, false)
+    anm7.addEventListener("mouseleave", function (event) {
+        hovers = false;
+        anm7.style.display = "none";
+        S7.pause();
+    }, false)
+    img7.addEventListener("mouseleave", function (event) {
+        if (anm7.style.display == "none") {
+            hovers = false;
+        }
+    }, false)
+}
+
+//8
+var img8 = document.getElementById("img8");
+var anm8 = document.getElementById("Animation8")
+var S8 = new Audio("Animations/A8/KMP8.mp3");
+//Hover Animation controll
+if(img8 != null && anm8 != null) {
+    img8.addEventListener("mouseover", function (event) {
+        hovers = true;
+        console.log("Start Animation");
+        setTimeout(() => {
+            if (hovers) {
+                var giflink = anm8.getAttribute("src");
+                var backgroundimg = img8.getAttribute("src")
+                console.log(giflink);
+                S8.loop = true;
+                anm8.style.display = "inline";
+                anm8.setAttribute("src", backgroundimg);
+                setTimeout(() => {
+                    anm8.setAttribute("src", giflink);
+                    S8.currentTime = 0;
+                    S8.play();
+                }, 50)
+
+            }
+        }, 450)
+    }, false)
+    anm8.addEventListener("mouseleave", function (event) {
+        hovers = false;
+        anm8.style.display = "none";
+        S8.pause();
+    }, false)
+    img8.addEventListener("mouseleave", function (event) {
+        if (anm8.style.display == "none") {
+            hovers = false;
+        }
+    }, false)
+}
+
+
