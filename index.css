@@ -75,6 +75,7 @@ body{
 }
 .mehrc{
     display: none;
+    z-index: 1;
 }
 
 .boxleft, .boxright{
@@ -82,7 +83,7 @@ body{
     border-width: 20px;
     border-style: solid;
     border-radius: 10px;
-    width: 50%;
+    width: 960px;
     background: rgba(255,255,255,0.5);
     position: relative;
     height: 200px;
@@ -167,30 +168,60 @@ text-align: center;
     display: none;
 }
 
+
+#waterimg:hover, #smartdevimg:hover,#cyberimg:hover,#co2img:hover{
+    transform: scale(1);
+}
+
 #waterimg{
     position: absolute;
-    top: 65px;
-    left: 50px;
-    transform: scale(1.3);
+    top: 50px;
+    left: 80px;
+    max-height: 250px;
+    max-width: 1000px;
+    border-radius: 0px;
 }
 #smartdevimg{
     position: absolute;
-    top: 160px;
-    left: 120px;
-    transform: scale(1.5);
+    top: 100px;
+    left: 40px;
+    max-height: 230px;
+    max-width: 1000px;
     border-radius: 0px;
 }
 #cyberimg{
     position: absolute;
-    top: 190px;
-    left: 120px;
-    transform: scale(1.5);
+    top: 140px;
+    left: 60px;
+    max-height: 200px;
+    max-width: 1000px;
     border-radius: 0px;
 }
 #co2img{
     position: absolute;
-    top: 190px;
-    left: 120px;
-    transform: scale(2);
+    top: 115px;
+    left: 10px;
+    max-height: 200px;
+    max-width: 1000px;
     border-radius: 0px;
+}
+#space1{
+    display: block;
+    position: relative;
+    height: 260px;
+}
+#space2{
+    display: block;
+    position: relative;
+    height: 200px;
+}
+#space3{
+    display: block;
+    position: relative;
+    height: 200px;
+}
+#space4{
+    display: block;
+    position: relative;
+    height: 220px;
 }
