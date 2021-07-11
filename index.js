@@ -12,6 +12,11 @@ window.addEventListener('scroll', () => {
     document.getElementById("zb5").style.backgroundPosition =factor5;
 });
 
+window.addEventListener('resize', () => {
+  let width = window.innerWidth;
+  document.get
+});
+
 function ShowMore(index){
     var button = "mehr"+index;
     var text = "mehrc"+index;

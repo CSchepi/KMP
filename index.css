@@ -1,5 +1,6 @@
 body{
     font-family: "Roboto";
+    font-size: 14px;
 }
 
 .Headline{
@@ -86,13 +87,13 @@ body{
     width: 960px;
     background: rgba(255,255,255,0.5);
     position: relative;
+    left: calc((100vw - 1050px)/3);
     height: 200px;
-    left: 20%;
     margin: 20px;
 }
 .boxright{
     text-align: right;
-    left: 30%
+    left: calc(2*(100vw - 1050px)/3);
 }
 
 .mehrc{
@@ -107,6 +108,7 @@ body{
     border-radius: 10px;
     top:0px;
     transition: all 0.4s ease-in-out;
+    z-index: 10;
 }
 .boxleft img{
     max-height: 100%;
@@ -116,6 +118,7 @@ body{
     border-radius: 10px;
     top: 0px;
     transition: all 0.4s ease-in-out;
+    z-index: 10;
 }
 
 .boxleft img:hover{
@@ -224,4 +227,7 @@ text-align: center;
     display: block;
     position: relative;
     height: 220px;
+}
+#mehrc11, #mehrc13, #mehrc31{
+    font-size: 16px;
 }
